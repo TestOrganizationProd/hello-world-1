@@ -4,8 +4,8 @@ services:
 
   hello-world:
     image: nginx
-    healthcheck:
-
+    healthcheck: 
+      interval: 4
 x-uffizzi:
   continuous_preview:
     delete_preview_after: 1h
