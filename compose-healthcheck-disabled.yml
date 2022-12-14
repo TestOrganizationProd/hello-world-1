@@ -5,7 +5,6 @@ services:
   hello-world:
     image: nginx
     healthcheck:
-      disable: true
 
 x-uffizzi:
   continuous_preview:
